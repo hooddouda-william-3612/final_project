@@ -9,12 +9,12 @@ Program "final.py" was created by:
 
 This program is based in python3 and is intended to be a "Hello World" sort of
 program. The program will take in a file containing a string (default = Hello World).
-Once the string is deconstucted, we will use python to search and download images
+Once the string is deconstructed, we will use python to search and download images
 that correspond to the individual characters within the string. These images will then
 be stitched together on a GUI interface built from tkinter for python. The tkinter window
-will be sized accordinly to the amount of characters within the original file. The download
-has been limited to 100 characters. A scrollbar built within the tkinter canvas will allow
-the user to scroll through the whole reconstructed message.
+will be sized accordingly to the amount of characters within the original file. A scrollbar
+built within the tkinter canvas will allow the user to scroll through the whole reconstructed
+message.
 
 Project Brief:
 --------------
@@ -35,14 +35,14 @@ The program is to have:
     Error handling built within the Classes.
 
     File I/O - 
-        The program will read from a text file and then use the incomming
+        The program will read from a text file and then use the incoming
         string as the input for the entire program. The output is handled by creating
         a bibliography of sorts into a new file within the working directory that contains
         the paths of all of the images that were downloaded upon running the program.
 
     Tests for at least 50% of the functions.
 
-The program is to have the correct documentaion and pass the created test functions as well
+The program is to have the correct documentation and pass the created test functions as well
 as "pycodestle", "pydocstyle", "pylint", and "pytest" as used throughout the class.
 
 The final project is due no later than June 12th at noon and must be submitted to GitHub along

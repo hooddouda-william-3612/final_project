@@ -184,6 +184,13 @@ class ReadNote:  # pylint: disable = R0903
         )
         canvas.pack()
         horizontal_scroll_bar.config(command=canvas.xview)
+
+        #  This controls the EXIT button
+        bottom_frame = Frame(root)
+        bottom_frame.pack(side=BOTTOM)
+        exit_button = Button(bottom_frame, text="EXIT", command=root.destroy)
+        exit_button.pack(side=BOTTOM)
+
         img_list = list()
         for i, _ in enumerate(self.path_list):
             for j in range(10):
@@ -195,6 +202,8 @@ class ReadNote:  # pylint: disable = R0903
                     canvas.create_image(
                         (i * 150), j * 150, anchor=NW, image=img_tk)
                     img_list.append(img_tk)
+
+        root.protocol("WM_DELETE_WINDOW", delete)
         root.mainloop()
 
 
@@ -202,7 +211,7 @@ def delete():
     """
     Clean up downloads folder.
 
-    Delete the folder of downloaded images from the durrent working directory.
+    Delete the folder of downloaded images from the current working directory.
     """
     path = getcwd() + "\\downloads"
     rmtree(path)
@@ -229,7 +238,8 @@ def main():
 
     Run the main function of the module.
     """
-    play_function("hello_world.txt")
+
+    play_function("test_jk.txt")
 
 
 if __name__ == "__main__":
