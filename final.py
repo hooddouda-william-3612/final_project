@@ -213,7 +213,7 @@ def delete():
 
     Delete the folder of downloaded images from the current working directory.
     """
-    path = getcwd() + "\\downloads"
+    path = getcwd() + "/downloads"
     rmtree(path)
 
 
