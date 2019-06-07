@@ -7,9 +7,9 @@ python:
   - "3.7"
 script:
   - pytest test_final.py
-  - pylint final.py test_final.py
-  - pycodestyle final.py test_final.py
-  - pydocstyle final.py test_final.py
+  - pylint final.py
+  - pycodestyle final.py
+  - pydocstyle final.py
 notifications:
   email:
     recipients:
