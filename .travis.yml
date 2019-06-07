@@ -1,13 +1,13 @@
 ---
 dist: xenial
 install:
-  - "pip install pytest pylint pycodestyle pydocstyle google_images_download"
+  - "pip install pytest pylint pycodestyle pydocstyle google_images_download Pillow"
 language: python
 python:
   - "3.7"
 script:
   - pytest test_final.py
-  - pylint test_final.py
+  - pylint final.py
   - pycodestyle final.py
   - pydocstyle final.py
 notifications:
