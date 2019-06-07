@@ -11,9 +11,9 @@ William Hood-Douda
 
 from os import getcwd
 from shutil import rmtree
-from tkinter import *  # pylint: disable = W0401, W0614
-from PIL import ImageTk, Image
 from google_images_download import google_images_download
+from tkinter import *  # pylint: disable = W0401, W0614
+from PIL import ImageTk, Image  # pylint = E0401
 
 
 class WriteNote:
@@ -238,7 +238,6 @@ def main():
 
     Run the main function of the module.
     """
-
     play_function("test_jk.txt")
 
 

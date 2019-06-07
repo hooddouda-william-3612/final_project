@@ -1,0 +1,6 @@
+As I spoke with you in class, I would like to do a “Hello world” program in a ransom note style. This is going to take an image of each individual letter and display to the user a composite of the constructed words. I am going to be forcing recursion into this program (which we have discussed) and I am thinking that the file I/O requirement is going to be reading from a text file as the input and then outputting the addresses where it grabbed the images (think bibliography). 
+
+If you have any concerns please let me know so that I can address them as soon as possible. Also, in the brief it states that we can work together. William would like to help with this project and I wanted to let you know that we have been working very well as a team back and fourth and have equally been contributing so there is NOT an issue of one person doing all the work or writing all the code. We have been really equal in all of the assignments thus far. Please let me know if there is an issue with this final collaboration as well.
+
+I have attached a link to the repo that I created for this project.
+https://github.com/patton-simeon-6859/Final-Project-CS162-SimeonPatton/invitations
