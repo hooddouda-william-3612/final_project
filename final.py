@@ -238,7 +238,7 @@ def main():
 
     Run the main function of the module.
     """
-    play_function("test_jk.txt")
+    play_function("hello_world.txt")
 
 
 if __name__ == "__main__":
